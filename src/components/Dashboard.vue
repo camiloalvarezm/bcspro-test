@@ -41,7 +41,31 @@
         <h5 class="card-header d-flex align-items-center title m-0">
           My Stats
         </h5>
-        <div class="card-body"></div>
+        <div
+          class="card-body p-0 d-flex align-items-center justify-content-center"
+        >
+          <div style="width: 175px" class="d-flex flex-column align-items-center justify-content-center">
+            <span class="number rounded-pill" style="padding: 4px 16px"
+              >19</span
+            >
+            <p class="title text-center">Employers in Progress</p>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+          </div>
+          <div style="width: 175px" class="d-flex flex-column align-items-center justify-content-center">
+            <span class="number rounded-pill" style="padding: 4px 12px"
+              >32</span
+            >
+            <p class="title text-center">Total Employers</p>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+          </div>
+          <div style="width: 251px" class="d-flex flex-column align-items-center justify-content-center">
+            <span class="number rounded-pill" style="padding: 4px 20px"
+              >$10,398,149</span
+            >
+            <p class="title text-center">Total Compliance Risk Identified</p>
+            <p class="text-center" style="width: 175px;">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -109,14 +133,14 @@ span.label {
     }
 
     p {
-        margin: 0 0 6px 0;
-        font-weight: $font-weight-title;
-        font-size: 14px;
+      margin: 0 0 6px 0;
+      font-weight: $font-weight-title;
+      font-size: 14px;
     }
 
     span {
-        font-size: 14px;
-        margin: 0 0 6px 0;
+      font-size: 14px;
+      margin: 0 0 6px 0;
     }
   }
 }
@@ -124,6 +148,27 @@ span.label {
 .my-stats {
   width: 698px;
   margin-left: 23px;
+
+  .card-body {
+    .number {
+      color: $custom-bg-dark-color;
+      font-size: 40px;
+      font-weight: $font-weight-title;
+      background-color: $custom-text-color-gray;
+    }
+
+    p.title {
+      font-size: 14px;
+      font-weight: $font-weight-title;
+      margin: 5px 0 8px 0;
+    }
+
+    p {
+      font-size: 12px;
+      font-weight: 400;
+      margin-bottom: 0;
+    }
+  }
 }
 
 .latest-activity {
