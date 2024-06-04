@@ -44,14 +44,14 @@
         <div
           class="card-body p-0 d-flex align-items-center justify-content-center"
         >
-          <div style="width: 175px" class="d-flex flex-column align-items-center justify-content-center">
+          <div style="width: 175px; margin-right: 19px;" class="d-flex flex-column align-items-center justify-content-center">
             <span class="number rounded-pill" style="padding: 4px 16px"
               >19</span
             >
             <p class="title text-center">Employers in Progress</p>
             <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
           </div>
-          <div style="width: 175px" class="d-flex flex-column align-items-center justify-content-center">
+          <div style="width: 175px; margin-right: 19px;" class="d-flex flex-column align-items-center justify-content-center">
             <span class="number rounded-pill" style="padding: 4px 12px"
               >32</span
             >
