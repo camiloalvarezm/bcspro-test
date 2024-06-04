@@ -1,0 +1,8 @@
+//Mixin for link styles
+@mixin link-styles {
+  color: $custom-text-color-purple;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+}
