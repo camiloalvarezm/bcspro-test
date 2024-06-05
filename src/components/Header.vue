@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <nav class="custom-navbar">
+  <nav class="custom-navbar sticky-top">
     <div class="d-flex flex-row justify-content-between w-100">
       <div class="d-flex flex-row align-items-center">
         <img class="logo" src="../assets/logo.svg" alt="logo-img" />
@@ -32,6 +32,7 @@ img.logo {
   width: 135px;
   margin: 0 66px 0 28px;
   width: auto;
+  cursor: pointer;
 }
 
 ul {
