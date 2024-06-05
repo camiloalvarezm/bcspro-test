@@ -171,7 +171,7 @@ const listItems = ref([
       <div
         class="card-header d-flex justify-content-between align-items-center px-4"
       >
-        <h5 class="title m-0">
+        <h5 class="title m-0 my-1">
           Frequently Asked Questions: <span class="label">General</span>
         </h5>
         <a class="link m-0 d-flex align-items-center pointer">
