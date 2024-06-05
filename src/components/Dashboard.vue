@@ -167,10 +167,91 @@ const listItems = ref([
     </div>
 
     <div class="card asked-questions">
-      <h5 class="card-header title d-flex align-items-center px-4">
-        Frequently Asked Questions: <span class="label">General</span>
-      </h5>
-      <div class="card-body"></div>
+      <div
+        class="card-header forzando d-flex justify-content-between align-items-center px-4"
+      >
+        <h5 class="title m-0">
+          Frequently Asked Questions: <span class="label">General</span>
+        </h5>
+        <a class="link m-0 d-flex align-items-center pointer">
+          View All Frequently Asked Questions
+          <img
+            class="ms-3"
+            src="../assets/right-arrow.svg"
+            alt="right-arrow-icon"
+          />
+        </a>
+      </div>
+      <div class="card-body p-0 d-flex flex-row">
+        <div class="section-1">
+          <section>
+            <header>
+              <h4>How do I use BCS Pro?</h4>
+            </header>
+            <article>
+              <p>
+                BCS Pro can be used to diagnose, plan, and communicate an
+                employer's group health compliance requirements. The
+                <span>Calendar</span>
+                function serves to identify requirements and send reminders to
+                relevant parties, the <span>Planning</span> tool is used by
+                benefits operational staff to assist in seasonal review meetings
+                with clients, and the <span>Assessment</span> is a tool used to
+                identify the gaps and risks in an employer's group health plan.
+                To explore each section for an employer, navigate to an
+                employer's dashboard to Calendar, Assessment, or Planning.
+              </p>
+            </article>
+          </section>
+
+          <section style="padding-top: 0">
+            <header>
+              <h4>Who can use BCS pro at my agency?</h4>
+            </header>
+            <article>
+              <p>
+                Every user is set up with their own login and password. When
+                your agency signed up for BCS pro, all users were given links to
+                create their own credentials. If your agency has new employees
+                they would like to add that do not currently have login
+                credentials, please send an email to
+                <span>licenses@bcspro.com</span> with the request.
+              </p>
+            </article>
+          </section>
+        </div>
+
+        <div class="section-2">
+          <section>
+            <header>
+              <h4>Is BCS Pro for agencies or employers?</h4>
+            </header>
+            <article>
+              <p>
+                BCS Pro is designed for benefits agency employers to assist
+                their employer clients with compliance. It generates reminders,
+                artifacts, and reports that can be shared with your employers,
+                but the tool itself is designed to be used by agency employees.
+              </p>
+            </article>
+          </section>
+
+          <section>
+            <header>
+              <h4>Does BCS Pro integrate to our agency management system?</h4>
+            </header>
+            <article>
+              <p>
+                The current version of BCS Pro does not directly integrate into
+                your CMS. We have made it easy to create artifacts like reports
+                and to-do-lists that can be easily uploaded to your CMS and tied
+                to the employer's account there. We are actively working on
+                integrations for future versions of BCS Pro.
+              </p>
+            </article>
+          </section>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -196,7 +277,7 @@ h5.title {
 span.label {
   font-size: $font-size-label;
   font-weight: $font-weight-label;
-  margin-left: 8px;
+  margin-left: 4px;
 }
 
 .card-header {
@@ -324,5 +405,41 @@ span.label {
   width: 1176px;
   height: 359px;
   margin-bottom: 40px;
+
+  .section-1 {
+    padding: 19px 41px 23px 27px;
+  }
+
+  .section-2 {
+    padding-top: 19px;
+    padding-right: 46px;
+  }
+
+  section {
+    width: 531px;
+    box-sizing: content-box;
+
+    header {
+      h4 {
+        font-size: 14px;
+        font-weight: $font-weight-title;
+      }
+    }
+
+    article {
+      p {
+        font-size: 14px;
+        font-weight: 250;
+        line-height: 18.2px;
+
+        span {
+          color: $custom-text-color-purple;
+          font-weight: $font-weight-greeting;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+  }
 }
 </style>

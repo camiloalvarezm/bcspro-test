@@ -5,7 +5,7 @@
     <div class="d-flex flex-row justify-content-between w-100">
       <div class="d-flex flex-row align-items-center">
         <img class="logo" src="../assets/logo.svg" alt="logo-img" />
-        <ul class="d-none d-md-flex m-0 p-0 h-100 d-flex align-items-center text-white">
+        <ul class="m-0 p-0 h-100 d-flex align-items-center text-white">
           <li class="list-inline-item d-flex align-items-center active">
             Home
           </li>
