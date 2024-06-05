@@ -169,7 +169,7 @@ const listItems = ref([
 
     <div class="card asked-questions">
       <div
-        class="card-header forzando d-flex justify-content-between align-items-center px-4"
+        class="card-header d-flex justify-content-between align-items-center px-4"
       >
         <h5 class="title m-0">
           Frequently Asked Questions: <span class="label">General</span>
