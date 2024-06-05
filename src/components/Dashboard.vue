@@ -430,7 +430,7 @@ span.label {
     article {
       p {
         font-size: 14px;
-        font-weight: 250;
+        font-weight: 230;
         line-height: 18.2px;
 
         span {
