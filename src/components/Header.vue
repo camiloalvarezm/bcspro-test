@@ -50,6 +50,7 @@ ul {
 img.user-icon,
 img.search-icon {
   width: 20px;
+  cursor: pointer;
 }
 
 img.user-icon {

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="Mask-Group">
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="Rectangle" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#clip_1)">
+      <path d="M23.9991 12.0735C23.9991 5.40454 18.6261 -0.00146484 11.9991 -0.00146484C5.36909 3.51564e-05 -0.00390625 5.40454 -0.00390625 12.075C-0.00390625 18.1005 4.38509 23.0955 10.1211 24.0015L10.1211 15.564L7.07609 15.564L7.07609 12.075L10.1241 12.075L10.1241 9.41253C10.1241 6.38704 11.9166 4.71603 14.6571 4.71603C15.9711 4.71603 17.3436 4.95154 17.3436 4.95154L17.3436 7.92154L15.8301 7.92154C14.3406 7.92154 13.8756 8.85303 13.8756 9.80853L13.8756 12.0735L17.2026 12.0735L16.6716 15.5625L13.8741 15.5625L13.8741 24C19.6101 23.094 23.9991 18.099 23.9991 12.0735L23.9991 12.0735Z" id="Group" fill="#5C0CB8" stroke="none" />
+    </g>
+  </g>
+</svg>

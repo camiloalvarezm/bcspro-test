@@ -7,7 +7,7 @@ import Footer from "./components/Footer.vue";
 <template>
   <Header />
   <Dashboard />
-  <!-- <Footer /> -->
+  <Footer />
 </template>
 
 <style scoped></style>
